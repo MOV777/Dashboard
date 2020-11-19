@@ -11,6 +11,7 @@ window.onload = () => {
     gamb.onclick = () => {
         sidebar.classList.toggle('sidebar__open');
         dashboard.classList.toggle('dashboard__open');
+        dashboard.classList.toggle('main__close');
     }
 
 

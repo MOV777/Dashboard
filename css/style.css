@@ -837,10 +837,12 @@ h6 {
   }
   .header__gamb {
     display: block;
+    margin: -5px 0;
+    font-size: 30px;
   }
   .header__logo {
     z-index: 99;
-    padding-top: 30px;
+    padding: 10px 0;
   }
   .sidebar {
     position: absolute;
@@ -914,25 +916,24 @@ h6 {
   .sidebar {
     width: 100%;
   }
+  .sidebar {
+    padding: 20px 0;
+  }
   .header__menu {
     display: none;
-  }
-  .header__gamb {
-    font-size: 60px;
   }
   .sidebar__profile {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 0 0 15px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .sidebar__profile > img {
-    width: 80px;
-  }
-  .profile__title {
-    font-size: 30px;
-  }
-  .profile__text {
-    font-size: 20px;
+  .profile {
+    padding-top: 15px;
   }
   .sidebar__list {
     display: -webkit-box;
@@ -942,23 +943,16 @@ h6 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .sidebar__item:not(:last-child) {
-    padding-bottom: 20px;
   }
   .sidebar__item > a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .sidebar__text {
-    font-size: 30px;
-  }
   .sidebar__item > a > i {
-    padding-left: 0;
-    font-size: 30px;
+    padding: 0;
+  }
+  .main__close {
+    display: none;
   }
 }
