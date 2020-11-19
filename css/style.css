@@ -443,14 +443,8 @@ h6 {
   transition: 0.2s all;
 }
 
-.date__link:hover:after {
- display: block;
-  width: 60px;
-  height: 4px;
-  background: #b8e986;
-  border-radius: 5px;
-  content: "";
-  margin-top: 8px;
+.date__link:hover {
+  opacity: 0.7;
 }
 
 .date__link-active::after {
