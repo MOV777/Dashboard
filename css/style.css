@@ -932,8 +932,21 @@ h6 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  
+  .sidebar__profile > img{
+    width: 50px;
+  }
+  
   .profile {
     padding-top: 15px;
+  }
+  
+  .profile__title{
+    font-size: 20px;
+  }
+  
+  .profile__text{
+    font-size: 16px;
   }
   .sidebar__list {
     display: -webkit-box;
