@@ -961,15 +961,7 @@ h6 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  
-  .sidebar__text{
-     font-size: 20px;
-  }
-  
-  .sidebar__item:not(:last-child){
-     padding-bottom: 15px;
-  }
-  
+      
   .sidebar__item > a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
