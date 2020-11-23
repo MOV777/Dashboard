@@ -937,6 +937,10 @@ h6 {
     width: 50px;
   }
   
+  .sidebar__menu{
+    padding-top: 30px;
+  }
+  
   .profile {
     padding-top: 15px;
   }
