@@ -939,14 +939,16 @@ h6 {
   
   .profile {
     padding-top: 15px;
-  }
+    text-align: center;
+    margin: 0;
+}
   
   .profile__title{
     font-size: 20px;
   }
   
   .profile__text{
-    font-size: 16px;
+    font-size: 14px;
   }
   .sidebar__list {
     display: -webkit-box;
