@@ -957,8 +957,11 @@ h6 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  
+  .sidebar__text{
+     font-size: 20px;
+  }
   .sidebar__item > a {
-    font-size: 20px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
